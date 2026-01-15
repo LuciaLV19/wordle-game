@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle - Web Version</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Wordle Java Port</h1>
+    <p style="color: #818384;">Try to guess the word in 6 tries</p>
+
+    <div id="grid" class="grid"></div>
+
+    <div class="input-area">
+        <input type="text" id="guessInput" maxlength="5" placeholder="Word">
+        <button onclick="check()">Send</button>
+    </div>
+
+    <p id="msg"></p>
+
+    <script>
+        const words = [
+            "LIBRO", "PERRO", "MANOS", "SALUD", "NOCHE", "HOJAS", "MUJER", "PADRE", 
+            "PAPEL", "COMER", "MALLA", "VOCAL", "CAMPO", "NIEVE", "CARNE", "DULCE", 
+            "CAZAR", "VERDE", "GLOBO", "FUEGO", "CLAVE", "POLLO", "CASAS", "MICRO", 
+            "PLAYA", "MARCO", "CORTO", "HIELO", "SALSA", "MENTE", "CURSO", "CLARO", 
+            "SUEÑO", "RUBIA", "GRITO", "RELOJ", "TINTA", "YERNO", "LEONA", "CHICA", 
+            "LINCE", "MIEDO", "LUCHA"
+        ];
+
+        const secretWord = words[Math.floor(Math.random() * words.length)].toUpperCase();
+
+        let currentTry = 0;
+        const maxTries = 6;
+
+        // Game grid setup
+        const grid = document.getElementById('grid');
+        for (let i = 0; i < maxTries; i++) {
+            const row = document.createElement('div');
+            row.className = 'row';
+            for (let j = 0; j < 5; j++) {
+                const cell = document.createElement('div');
+                cell.className = 'cell';
+                cell.id = `c-${i}-${j}`;
+                row.appendChild(cell);
+            }
+            grid.appendChild(row);
+        }
+
+        function check() {
+            const input = document.getElementById('guessInput');
+            const guess = input.value.toUpperCase();
+
+            if (guess.length !== 5) return;
+
+            // --- JAVA LOGIC REPLICATION WordleFeedback.java ---
+            for (let i = 0; i < 5; i++) {
+                const cell = document.getElementById(`c-${currentTry}-${i}`);
+                cell.innerText = guess[i];
+                
+                if (guess[i] === secretWord[i]) {
+                    cell.classList.add('correct');
+                } else if (secretWord.indexOf(guess[i]) !== -1) {
+                    cell.classList.add('present');
+                } else {
+                    cell.classList.add('absent');
+                }
+            }
+            // --- END OF REPLICATED LOGIC ---
+
+            if (guess === secretWord) {
+                document.getElementById('msg').innerText = "Congratulations! You guessed it!";
+            } else {
+                currentTry++;
+                if (currentTry >= maxTries) {
+                    document.getElementById('msg').innerText = "Game Over. The word was " + secretWord;
+                }
+            }
+            input.value = "";
+        }
+    </script>
+</body>
+</html>

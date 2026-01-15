@@ -1,0 +1,98 @@
+
+¡Bienvenido a Wordle!
+Debes adivinar una palabra de 5 letras.
+Tienes 6 intentos. ¡Buena suerte!
+perro
+Intentos restantes: 5
+Palabras ingresadas: 
+rezar
+Intentos restantes: 4
+Palabras ingresadas: 
+rango
+Intentos restantes: 3
+Palabras ingresadas: 
+riame
+Intentos restantes: 2
+Palabras ingresadas: 
+rarta
+Intentos restantes: 1
+Palabras ingresadas: 
+aaaaa
+Intentos restantes: 0
+Palabras ingresadas: 
+Lo siento, te has quedado sin intentos. La palabra correcta era rueda
+¡Bienvenido a Wordle!
+Debes adivinar una palabra de 5 letras.
+Tienes 6 intentos. ¡Buena suerte!
+comer
+Intentos restantes: 5
+Palabras ingresadas: 
+cargo
+Intentos restantes: 4
+Palabras ingresadas: 
+circo
+Intentos restantes: 3
+Palabras ingresadas: 
+cerdo
+Intentos restantes: 2
+Palabras ingresadas: 
+corto
+Intentos restantes: 1
+Palabras ingresadas: 
+Felicidades!! Has adivinado la palabra secreta
+¡Bienvenido a Wordle!
+Debes adivinar una palabra de 5 letras.
+Tienes 6 intentos. ¡Buena suerte!
+¡Bienvenido a Wordle!
+Debes adivinar una palabra de 5 letras.
+Tienes 6 intentos. ¡Buena suerte!
+¡Bienvenido a Wordle!
+Debes adivinar una palabra de 5 letras.
+Tienes 6 intentos. ¡Buena suerte!
+perro
+Intentos restantes: 5
+Palabras ingresadas: 
+deseo
+Intentos restantes: 4
+Palabras ingresadas: 
+decir
+Intentos restantes: 3
+Palabras ingresadas: 
+denso
+Intentos restantes: 2
+Palabras ingresadas: 
+dedal
+Intentos restantes: 1
+Palabras ingresadas: 
+dejar
+Intentos restantes: 0
+Palabras ingresadas: 
+Lo siento, te has quedado sin intentos. La palabra correcta era deuda
+¡Bienvenido a Wordle!
+Debes adivinar una palabra de 5 letras.
+Tienes 6 intentos. ¡Buena suerte!
+comer
+Intentos restantes: 5
+Palabras ingresadas: 
+raton
+Intentos restantes: 4
+Palabras ingresadas: 
+marzo
+Intentos restantes: 3
+Palabras ingresadas: 
+garbo
+Intentos restantes: 2
+Palabras ingresadas: 
+Felicidades!! Has adivinado la palabra secreta
+¡Bienvenido a Wordle!
+Debes adivinar una palabra de 5 letras.
+Tienes 6 intentos. ¡Buena suerte!
+aeiou
+Intentos restantes: 5
+Palabras ingresadas: 
+¡Bienvenido a Wordle!
+Debes adivinar una palabra de 5 letras.
+Tienes 6 intentos. ¡Buena suerte!
+holas
+Intentos restantes: 5
+Palabras ingresadas: 
